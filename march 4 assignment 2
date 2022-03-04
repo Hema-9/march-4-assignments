@@ -1,0 +1,17 @@
+code:
+n=int(input("enter n"))
+l=input().split()
+t=[]
+for  i in l:
+    t.append(int(i))
+x=[]    
+for i in t:
+    if i not in x:
+        x.append(i)
+x.sort(reverse= True)
+print(x[2])
+    
+out put:
+enter n 5
+2 3 5 1 8
+3
